@@ -1,15 +1,13 @@
-﻿int a, b, c, max;
-
-Console.Write("Введите первое число: ");
-a = Convert.ToInt32(Console.ReadLine());
+﻿Console.Write("Введите первое число: ");
+int a = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите второе число: ");
-b = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите третье число: ");
-c = Convert.ToInt32(Console.ReadLine());
+int c = Convert.ToInt32(Console.ReadLine());
 
-max = a;
+int max = a;
 if (b > max)  max = b;
 if (c > max)  max = c;
 

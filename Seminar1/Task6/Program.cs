@@ -1,10 +1,9 @@
-﻿int num, talls;
-string message;
+﻿string message;
 
 Console.Write("Введите число: ");
-num = Convert.ToInt32(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 
-talls = num % 2;
+int talls = num % 2;
 
 if (talls == 0)
 {
